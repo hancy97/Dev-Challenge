@@ -2,9 +2,14 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .outerDiv {
     font-family: cotton-candy;
-    padding: 1.6rem 3rem 0.3rem 2rem;
+    padding: 1.3rem 12.3rem 0rem 4.3rem;
 }
 
 .flex {
@@ -12,35 +17,40 @@
 }
 
 h3 {
-    margin: 0rem 0rem 3.6rem 5.8rem;
+    margin: 0rem 0rem 4rem 0rem;
 }
 
 img {
-    margin-left: -26rem;
+    width: 35rem;
+    height: 23rem;
 }
 
 .Contents {
     justify-content: center;
     align-items: center;
+    justify-content: space-between;
     /* text-align: center; */
-    font-size: 1.6rem;
-    line-height: 2.1rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 
 h2 {
     margin-top: -75px;
+    font-size: 3.1rem;
+    line-height: 3.9rem;
 }
 
 button {
-    padding: 12px;
-    background-color: #000;
+    padding: 19px;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     outline: none;
     cursor: pointer;
     border: 0px solid #fff;
+    margin-top: 1rem;
 }
 
 #footer {
     text-align: center;
-    margin-top: -7rem;
+    margin-top: 6.3rem;
 }
