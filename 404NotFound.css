@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.outerDiv {
+    font-family: cotton-candy;
+    padding: 1.6rem 3rem 0.3rem 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+h3 {
+    margin: 0rem 0rem 3.6rem 5.8rem;
+}
+
+img {
+    margin-left: -26rem;
+}
+
+.Contents {
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+}
+
+h2 {
+    margin-top: -75px;
+}
+
+button {
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 0px solid #fff;
+}
+
+#footer {
+    text-align: center;
+    margin-top: -7rem;
+}
